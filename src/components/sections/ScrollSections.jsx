@@ -150,7 +150,7 @@ const ScrollSections = () => {
             style={{ left: 0, top: 0 }}
           >
             <span className="text-white text-sm tracking-wider uppercase whitespace-nowrap bg-black/50 backdrop-blur-sm px-3 py-1.5 rounded-full">
-              (View Services)
+              (View Service)
             </span>
           </motion.div>
         )}

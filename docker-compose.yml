@@ -1,9 +1,9 @@
 services:
-  camdian-website:
+  portfolio-concept-website:
     build:
       context: .
       dockerfile: Dockerfile
-    container_name: camdian-website
+    container_name: portfolio-concept-website
     ports:
       - "3003:3003"
     restart: unless-stopped

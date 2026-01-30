@@ -95,7 +95,7 @@ const Navbar = () => {
         ))}
       </div>
 
-      <div className="hidden md:flex items-center gap-4 justify-self-end">
+      {/* <div className="hidden md:flex items-center gap-4 justify-self-end">
         <button
           onClick={() => setSignInModalOpen(true)}
           className="text-sm font-medium tracking-wider text-white uppercase transition-all duration-300 hover:text-[#ED1C24] hover:font-bold hover:scale-110"
@@ -109,7 +109,7 @@ const Navbar = () => {
         >
           REQUEST DEMO
         </a>
-      </div>
+      </div> */}
 
       <button
         className={`md:hidden flex flex-col gap-1.5 bg-transparent border-none cursor-pointer p-2.5 absolute right-4 ${menuOpen ? 'active' : ''}`}
