@@ -1,0 +1,6 @@
+export { default as HomePage } from './HomePage'
+export { default as CamdianServicePage } from './CamdianServicePage'
+export { default as FormFactoryServicePage } from './FormFactoryServicePage'
+export { default as ComingSoonPage } from './ComingSoonPage'
+export { default as AboutPage } from './AboutPage'
+export { default as PricingPage } from './PricingPage'

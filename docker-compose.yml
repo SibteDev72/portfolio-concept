@@ -1,0 +1,11 @@
+services:
+  camdian-website:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: camdian-website
+    ports:
+      - "3003:3003"
+    restart: unless-stopped
+    environment:
+      - NODE_ENV=production
